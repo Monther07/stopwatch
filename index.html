@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="CSS.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <!--   GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="timerHeader">
+        <span>مؤقت</span>
+        <div class="material-symbols-outlined">timer</div>
+      </div>
+      <h4>Vanilla JavaScript Stopwatch</h4>
+      <div>
+        <span id="hours">00</span>:<span id="minutes">00</span>:<span
+          id="seconds"
+          >00</span
+        >
+      </div>
+      <button id="button-lap">دورة</button>
+      <button id="button-reset">مسح</button>
+
+      <button id="button-stop">توقف</button>
+
+      <button id="button-start">بدء</button>
+    </div>
+    <div class="record">
+      <table class="table">
+        <thead class="tableRow">
+          <tr>
+            <th class="tableHead">الوقت</th>
+            <th class="tableHead">دورة</th>
+          </tr>
+        </thead>
+        <tbody id="lap-table" class="tableBody"></tbody>
+      </table>
+    </div>
+    <script src="./js.js" type="text/javascript"></script>
+  </body>
+</html>

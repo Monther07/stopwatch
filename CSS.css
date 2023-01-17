@@ -1,0 +1,104 @@
+/* Variabes */
+/* Mixin's */
+
+body {
+  font-family: 'Readex Pro', sans-serif;
+  height: 100%;
+  margin: 3%;
+  background-color: #1d123d;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 30px auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+  border-radius: 1rem;
+  padding: 2rem;
+  font-family: 'Readex Pro', sans-serif;
+  background: rgb(57,47,130);
+  background: linear-gradient(150deg, rgba(57,47,130,1) 0%, rgba(29,27,44,1) 133%);
+
+}
+.timerHeader{
+  font-size: 4rem;
+}
+.material-symbols-outlined {
+  font-variation-settings:'FILL' 0,'wght' 600,'GRAD' 200,'opsz' 48, 
+}
+
+
+
+h1, h2, h3 {
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  font-family: 'Readex Pro', sans-serif;
+}
+#hours, #minutes ,#seconds {
+  font-size: 2em;
+  font-family: 'Readex Pro', sans-serif;
+
+}
+button {
+  font-family: 'Readex Pro', sans-serif;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+  background: #ffb903;
+  color: rgb(34, 0, 54);
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 22px;
+    padding: auto;
+  width:100px;
+  height: 100px;
+  margin: 20px;
+  outline: none;
+}
+button:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+
+}
+
+.record{
+  width:660px;
+  margin:3rem auto;
+  background-color: #fafafa;
+  text-align: center;
+  border-radius: 0.5rem;
+  
+}
+
+.table{
+  width:660px;
+  border-collapse:collapse;
+  margin:3rem auto;
+  justify-items: center;
+
+
+}
+th,td {
+  padding: 8px;
+  text-align: center;
+
+}
+
+th{
+  color: rgb(34, 0, 54);
+
+}
+tbody{
+  color: #ffffff;
+  background: rgb(57,47,130);
+  background: linear-gradient(150deg, rgba(57,47,130,1) 0%, rgba(29,27,44,1) 133%);
+
+}
+
